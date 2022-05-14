@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(36,36,36);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;   
+}
+.bg{
+    background-image  : url("fundo-preto-hexagonal-3d-abstrato_177659-46.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+  
+    background-color: rgb(54, 54, 54);   
+    padding: 1em;
+    border-radius: 10px;
+    width: 15em;
+    height: 25em;
+    box-shadow: 5px,8px,8px, #000;
+}
+img[alt="nfc"]{
+    width: 10%;
+    margin-left:47%;
+    transform:  rotate(270deg);
+ 
+}
+img[alt="mslogo"]{
+     width: 30%;
+}
+
+img[alt="chip"]{
+width: 40%;
+transform: rotate(90deg);
+}
+img[alt="v"]{ width: 20%;   }
+img[alt="k"]{ width: 30%;   }
+.header{
+    height: 70%;
+}
+
+.footer{
+    height: 70%;
+    font-size: small;
+    
+}
+
+.contant{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    border-image-width: auto;
+}
+
+.visk{
+    width: 80%;
+}
+.all{
+    margin-top: 80px;
+    cursor:pointer ;
+}
